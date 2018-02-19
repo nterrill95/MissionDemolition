@@ -23,6 +23,8 @@ public class FollowCam : MonoBehaviour {
 
         Vector3 destiantion = POI.transform.position;
 
+        if(POI)
+
         destiantion.x = Mathf.Max(minXY.x, destiantion.x);
         destiantion.y = Mathf.Max(minXY.y, destiantion.y);
 
